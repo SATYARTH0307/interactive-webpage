@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4c54af;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    background-color: #333333;
+    overflow: hidden;
+    display: flex;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+footer {
+    background-color: #4c54af;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    bottom: 0;
+}
+.in
+{
+    background-image: url("engineering.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 200px;
+    justify-content: center;background-size: cover;
+
+}
+.con{
+    background-image: url("engineer2.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 200px;
+    justify-content: center;
+
+    background-size: cover;
+}
+.people
+{
+    background-image: url("engineering3.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 200px;
+    justify-content: center;
+    margin-top: 25px;
+    background-size: cover;
+}
+#home
+{
+    display: inline-block;
+    margin-left: 30px;
+    align-items: center;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    top: 50px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #00c3ff;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #0800ff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
